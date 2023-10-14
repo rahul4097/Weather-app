@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather site</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fa0bb17cde.js" crossorigin="anonymous"></script>
+
+</head>
+<body id="body">
+    <div class="search-bar">
+        <!-- <h1>Weather Forecast</h1> -->
+        <a href="#"><input type="text" placeholder="enter your city name"><i class="fa-solid fa-magnifying-glass search"></i></a>
+        <p class="error">(*Invalid City Name*)</p> 
+     </div>
+        <div class="background">
+            
+            <div class="temp-background"> 
+                <img id="weather-condition" src="" alt="">
+                <p id="weather-description" ></p>
+                <div class="text" style="position: relative;left: 12vw;height: 30vh; padding: 20px 0px;">
+                    <h1 class="city"></h1> 
+                    <h3 class="country"></h3>
+                    <h1 class="temp"> </h1>
+                </div>
+            </div>
+            <div class="forcast-background">
+                <h4>Today forcast</h4>
+                <div class="hourly-temp">
+                    <h3 class="time1"><br></h3>
+                    <img class="weather-status0" src="" alt="">
+                    <h2 class="upcomming-days-temp1"></h2>
+                </div>
+                <div class="hourly-temp">
+                    <h3 class="time2"><br></h3>
+                    <img  class="weather-status1" src="" alt="">
+                    <h2 class="upcomming-days-temp2"></h2>
+                </div>
+                <div class="hourly-temp">
+                    <h3 class="time3"></h3>
+                    <img  class="weather-status2" src="" alt="">
+                    <h2 class="upcomming-days-temp3"></h2>
+                </div>
+                <div class="hourly-temp">
+                    <h3 class="time4"></h3>
+                    <img  class="weather-status3" src="" alt="">
+                    <h2 class="upcomming-days-temp4"></h2>
+                </div>
+                <div class="hourly-temp">
+                    <h3 class="time5"></h3>
+                    <img  class="weather-status4" src="" alt="">
+                    <h2 class="upcomming-days-temp5"></h2>
+                </div>
+                <div class="hourly-temp">
+                    <h3 class="time6"></h3>
+                    <img class="weather-status5" src="" alt="">
+                    <h2 class="upcomming-days-temp6"></h2>
+                </div>
+                <div class="hourly-temp" style="border: none;">
+                    <h3 class="time7"></h3>
+                    <img  class="weather-status6" src="" alt="">
+                    <h2 class="upcomming-days-temp7"></h2>
+                </div>
+            </div>
+            <div class="air-condition">
+                <h4>Air Conditions</h4>
+                <div class="condition-data">
+                    <h3><i class="fa-solid fa-temperature-three-quarters"></i> Real feel</h3>
+                    <h2 class="real-feel"></h2>
+                
+                    <h3><i class="fa-solid fa-droplet"></i>Weather</h3>
+                    <h2 class="rain"></h2>
+                </div>
+                <div class="condition-data">
+                    <h3><i class="fa-solid fa-wind"></i>Wind </h3>
+                    <h2 class="wind"></h2>
+
+                    <h3><i class="fa-solid fa-droplet"></i>Humidity</h3>
+                    <h2 class="humidity"></h2>
+                </div>
+            </div>
+            <div class="sun-timing">
+                <h3>Sunrise <span class="sunrise"></span><img id="sunrise" src="" alt=""> </h3>
+                <hr style="border-color: #808080a3;width: 19vw;">
+                <h3>Sunset <span class="sunset"></span><img id="sunset" src="" alt=""> </h3>
+
+                <div class="more-info">
+                    <div class="info-data">
+                        <h3><i class="fa-brands fa-nfc-directional"></i> Pressure</h3>
+                        <h2 class="pressure"></h2>
+                    
+                        <h3><i class="fa-regular fa-eye-slash"></i>Visibility</h3>
+                        <h2 class="visibility"></h2>
+                    </div>
+                    <div class="info-data" >
+                        <h3><i class="fa-regular fa-clock"></i>TimeZone </h3>
+                        <h2 class="timezone"></h2>
+    
+                        <h3><i class="fa-solid fa-people-group"></i>Population</h3>
+                        <h2 class="population"></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
